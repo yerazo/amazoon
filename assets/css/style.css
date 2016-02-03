@@ -1,0 +1,44 @@
+/*
+Orange: #ff9900
+Blue: #007aff
+Header/Footer Blue: #232f3e */
+body{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+.primary-background{
+	background-color: #232f3e;
+}
+.primary-text{
+	color: #ff9900;
+}
+.secondary-text{
+	color: #007aff;
+}
+.btn{
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #ff9900;
+	color: white;
+}
+/*HEADER*/
+header{
+	overflow: auto;
+	height: 80px;
+	line-height: 80px;
+}
+header .logo{
+	float: left;
+}
+header .logo img{
+	vertical-align: middle;
+}
+header .nav{
+	float: right;
+}
+/*FOOTER*/
+footer{
+	text-align: center;
+}
