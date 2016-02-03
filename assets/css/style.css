@@ -23,6 +23,9 @@ body{
 	background-color: #ff9900;
 	color: white;
 }
+.border{
+	border:1px solid #cccccc;
+}
 /*HEADER*/
 header{
 	overflow: auto;
@@ -31,14 +34,28 @@ header{
 }
 header .logo{
 	float: left;
+
 }
 header .logo img{
 	vertical-align: middle;
 }
-header .nav{
+header nav{
 	float: right;
 }
+
+/*MAIN*/
+main{
+	padding: 20px 0;
+}
+/*SHOPPING CART*/
+
+
 /*FOOTER*/
 footer{
 	text-align: center;
+	line-height: 100px;
+	height: 100px;
+}
+footer .logo img{
+	vertical-align: center;
 }
