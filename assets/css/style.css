@@ -24,7 +24,15 @@ body{
 	color: white;
 }
 .border{
-	border:1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+[class*="col-"]{
+  height:100px;
+  border:2px solid red;
+  border-radius:12px;
+  line-height:50px;
+  text-align:center;
+  margin-bottom:20px
 }
 /*HEADER*/
 header{
@@ -42,20 +50,27 @@ header .logo img{
 header nav{
 	float: right;
 }
-
+h1{
+	text-align: center;
+}
 /*MAIN*/
 main{
 	padding: 20px 0;
 }
 /*SHOPPING CART*/
-
-
+.product span{
+	float: left;
+}
+h2{
+	display: inline-block;
+}
 /*FOOTER*/
 footer{
 	text-align: center;
 	line-height: 100px;
 	height: 100px;
 }
-footer .logo img{
+footer img{
 	vertical-align: center;
+	width: 15%;
 }
