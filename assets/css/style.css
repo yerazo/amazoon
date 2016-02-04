@@ -1,7 +1,9 @@
 /*
 Orange: #ff9900
 Blue: #007aff
-Header/Footer Blue: #232f3e */
+Header/Footer Blue: #232f3e 
+Red: #ec1a29
+by Amazoon gray: #83878b*/
 body{
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
@@ -50,14 +52,15 @@ header .logo img{
 header nav{
 	float: right;
 }
-h1{
-	text-align: center;
-}
+
 /*MAIN*/
 main{
 	padding: 20px 0;
 }
 /*SHOPPING CART*/
+h1{
+	text-align: center;
+}
 .product span{
 	float: left;
 }
